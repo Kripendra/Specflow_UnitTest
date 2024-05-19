@@ -1,0 +1,13 @@
+﻿<RunSettings>
+	<NUnit>
+		<!--https://docs.nunit.org/articles/vs-test-adapter/Tips-And-Tricks.html-->
+		<!-- defines in which folder the test result is created-->
+		<TestOutputXml>C:\TestResult\XML</TestOutputXml>
+		<OutputXmlFolderMode>RelativeToResultDirectory</OutputXmlFolderMode>
+		<!-- true => in each run new file is created -->
+		<NewOutputXmlFileForEachRun>true</NewOutputXmlFileForEachRun>
+	</NUnit>
+</RunSettings>
+
+
+<!-- Note:  Test -> Configure run settings -> select solution wide run settings  -->
